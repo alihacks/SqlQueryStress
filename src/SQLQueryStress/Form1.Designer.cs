@@ -104,8 +104,6 @@ namespace SQLQueryStress
             this.label11 = new System.Windows.Forms.Label();
             this.queryDelay_textBox = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.sqlControl1 = new SQLQueryStress.SqlControl();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iterations_numericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.threads_numericUpDown)).BeginInit();
@@ -881,8 +879,8 @@ namespace SQLQueryStress
         private Label label10;
         private Label label11;
         private TextBox queryDelay_textBox;
-        private System.Windows.Forms.Integration.ElementHost elementHost1;
-        private SqlControl sqlControl1;
+        
+        
         private ToolStripMenuItem saveBenchMarkToolStripMenuItem;
         private ToolStripMenuItem toCsvToolStripMenuItem;
         private ToolStripMenuItem toTextToolStripMenuItem;
